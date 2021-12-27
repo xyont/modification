@@ -1111,11 +1111,13 @@ void get_cmap_redblue(float v, float **r, float **g, float **b)
     {0.028220, 0.204844, 0.403460},
     {0.023914, 0.196540, 0.391926},
     {0.019608, 0.188235, 0.380392},
+  };
   int i = (int)floor(v * 255);
   **r = cmap_data[i][0];
   **g = cmap_data[i][1];
   **b = cmap_data[i][2];
 }
+
 
 // Gray colormap - Matplotlib
 void get_cmap_gray(float v, float **r, float **g, float **b)
@@ -1377,6 +1379,7 @@ void get_cmap_gray(float v, float **r, float **g, float **b)
     {0.992157, 0.992157, 0.992157},
     {0.996078, 0.996078, 0.996078},
     {1.000000, 1.000000, 1.000000},
+  };
   int i = (int)floor(v * 255);
   **r = cmap_data[i][0];
   **g = cmap_data[i][1];
@@ -1398,9 +1401,9 @@ void define_rgb(float v, float *r, float *g, float *b)
     get_cmap_classic(v, &r, &g, &b);
   else if( compare( cmap_name, "jet", 1)==1)
     get_cmap_jet(v, &r, &g, &b);
-  else if (strcmp(cmap_name, "redblue") == 0)
+  else if( compare( cmap_name, "redblue", 1)==1)
     get_cmap_redblue(v, &r, &g, &b);
-  else if (strcmp(cmap_name, "gray") == 0)
+  else if( compare( cmap_name, "gray", 1)==1)
     get_cmap_gray(v, &r, &g, &b);
 }
 
