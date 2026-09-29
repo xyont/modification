@@ -4,3 +4,5 @@ some of my small code modification on CalculiX GraphiX to support RedBlue and Gr
 revision 1 : 
 *replace RedBlue with CoolWarm colormap.
 *rename Gray colormap with GrayScale
+
+*add Rainbow Desaturated (29 Spept. 2026)
