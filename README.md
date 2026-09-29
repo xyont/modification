@@ -5,4 +5,7 @@ revision 1 :
 *replace RedBlue with CoolWarm colormap.
 *rename Gray colormap with GrayScale
 
-*add Rainbow Desaturated (29 Spept. 2026)
+*add  (29 Sept. 2026)
+Rainbow Desaturated
+
+ccview colormaps added similar with CGX: Inferno, Jet, Grayscale, Rainbow-desaturated & classic
