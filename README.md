@@ -6,6 +6,6 @@ revision 1 :
 *rename Gray colormap with GrayScale
 
 *add  (29 Sept. 2026)
-Rainbow Desaturated
+Rainbow Desaturated for **CGX**
 
-ccview colormaps added similar with CGX: Inferno, Jet, Grayscale, Rainbow-desaturated & classic
+**ccxview** colormaps added similar with CGX: Inferno, Jet, Grayscale, Rainbow-desaturated & classic
