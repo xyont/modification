@@ -9,3 +9,5 @@ revision 1 :
 Rainbow Desaturated for **CGX**
 
 **ccxview** colormaps added similar with CGX: Inferno, Jet, Grayscale, Rainbow-desaturated & classic
+
+CalculiX beam element add section type H, L and C
